@@ -21,6 +21,7 @@ Rails::Initializer.run do |config|
   # config.gem "aws-s3", :lib => "aws/s3"
   
   config.gem 'yahoofinance', :version => '1.2.2'
+  config.gem 'haml'
 
 
   # Only load the plugins named here, in the order given (default is alphabetical).

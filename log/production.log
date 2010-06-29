@@ -1,0 +1,79 @@
+
+
+Processing QuotesController#index (for 127.0.0.1 at 2010-06-29 15:47:46) [GET]
+
+NameError (uninitialized constant QuotesController::Quotes):
+  app/controllers/quotes_controller.rb:6:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuotesController#index (for 127.0.0.1 at 2010-06-29 15:48:35) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Quote without an ID):
+  app/controllers/quotes_controller.rb:6:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuotesController#index (for 127.0.0.1 at 2010-06-29 15:49:15) [GET]
+Rendering quotes/index
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Quotes) on line #2 of app/views/quotes/index.html.haml:
+1: .content-copy
+2:   %h2= Quotes
+3:   %br
+4:   %table
+5:     %thead
+
+    app/views/quotes/index.html.haml:2:in `_run_haml_app47views47quotes47index46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuotesController#index (for 127.0.0.1 at 2010-06-29 15:49:42) [GET]
+Rendering quotes/index
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Quotes) on line #2 of app/views/quotes/index.html.haml:
+1: .content-copy
+2:   %h2= Quotes
+3:   %br
+4:   %table
+5:     %thead
+
+    app/views/quotes/index.html.haml:2:in `_run_haml_app47views47quotes47index46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuotesController#index (for 127.0.0.1 at 2010-06-29 15:49:47) [GET]
+Rendering quotes/index
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Quotes) on line #2 of app/views/quotes/index.html.haml:
+1: .content-copy
+2:   %h2= Quotes
+3:   %br
+4:   %table
+5:     %thead
+
+    app/views/quotes/index.html.haml:2:in `_run_haml_app47views47quotes47index46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuotesController#index (for 127.0.0.1 at 2010-06-29 15:49:53) [GET]
+Rendering quotes/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing QuotesController#index (for 192.168.1.118 at 2010-06-29 15:54:13) [GET]
+Rendering quotes/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://192.168.1.117/]

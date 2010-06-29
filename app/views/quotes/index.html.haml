@@ -1,0 +1,32 @@
+.content-copy
+  %h2 Quotes
+  %br
+  %table
+    %thead
+      %tr
+        %th Ticker
+        %th Name
+        %th Dividend
+        %th Exdate
+        %th Divdend Per Share
+        %th Last Price
+        %th Last Updated
+    %tfoot
+      %tr
+        %th Ticker
+        %th Name
+        %th Dividend
+        %th Exdate
+        %th Divdend Per Share
+        %th Last Price
+        %th Last Updated
+    %tbody
+      - @quotes.each do |quote|
+        %tr{ :class => cycle('odd', 'even') }
+          %td= quote.ticker
+          %td= quote.name
+          %td= quote.dividend
+          %td= quote.exdate
+          %td= quote.dividend_per_share
+          %td= quote.last_price
+          %td= quote.updated_at
